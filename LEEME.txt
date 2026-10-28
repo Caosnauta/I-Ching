@@ -1,0 +1,34 @@
+LIBRO DE LAS MUTACIONES · APP INSTALABLE SIN CONEXIÓN
+=====================================================
+
+Esta carpeta es una copia completa de la app del I Ching que funciona sin
+internet: tiradas con monedas, el libro completo, la lectura en voz alta y
+el diario cifrado. Solo la interpretación con Claude necesita conexión; sin
+ella, la app te deja copiar la consulta para pegarla en Claude más tarde.
+
+Para instalarla con su ícono en el teléfono hay que publicarla una vez en un
+sitio web con https. Un modo gratuito es GitHub Pages:
+
+1. Entra a github.com e inicia sesión (o crea una cuenta).
+2. Crea un repositorio nuevo, público, por ejemplo «iching».
+3. En el repositorio elige «Add file» → «Upload files» y sube TODOS los
+   archivos de esta carpeta (no el .zip): index.html, sw.js,
+   manifest.webmanifest y los íconos .png.
+4. Ve a «Settings» → «Pages». En «Source» elige «Deploy from a branch»,
+   rama «main» y carpeta «/ (root)». Guarda.
+5. En uno o dos minutos la app queda en:
+   https://TU-USUARIO.github.io/iching/
+6. Ábrela en Chrome del teléfono, con internet, y espera a que cargue.
+   Luego en el menú ⋮ elige «Instalar app» o «Agregar a la pantalla
+   principal».
+
+Desde entonces el ícono abre la app aunque no tengas conexión. Cuando
+publiques una versión nueva, se actualizará sola la siguiente vez que la
+abras con internet.
+
+Privacidad
+- El repositorio público contiene solo la app. Tus preguntas, tiradas y el
+  diario nunca se suben: se quedan cifrados en tu teléfono.
+- El diario de esta copia es independiente del de la app dentro de Claude y
+  del archivo .html suelto: cada uno guarda sus propias consultas.
+- Si olvidas la contraseña del diario, nadie puede recuperarlo.
